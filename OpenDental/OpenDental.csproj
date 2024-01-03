@@ -277,6 +277,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Required dlls\RdlViewer.dll</HintPath>
     </Reference>
+    <Reference Include="RemotePhoneService, Version=6.10.0.1, Culture=neutral, PublicKeyToken=74e43a3bd6226b22, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Required dlls\RemotePhoneService.dll</HintPath>
+    </Reference>
     <Reference Include="Serilog">
       <HintPath>..\Required dlls\Serilog.dll</HintPath>
     </Reference>

@@ -63,6 +63,9 @@ namespace OpenDental {
 			if(ODBuild.IsDebug()) { // breaks stuff
 				_signupOut.SignupPortalUrl=_signupOut.SignupPortalUrl.Replace("https://www.patientviewer.com/SignupPortal/GWT/SignupPortal/SignupPortal.html","http://127.0.0.1:8888/SignupPortal.html");
 			}
+			//_signupOut.SignupPortalUrl = "https://www.patientviewer.com/SignupPortal/GWT/SignupPortal/SignupPortal.html";
+				Console.WriteLine("has url stuffs");
+				Console.WriteLine(_signupOut.SignupPortalUrl);
 				webViewMain.CoreWebView2.Navigate(_signupOut.SignupPortalUrl);
 			});
 		}

@@ -8,6 +8,7 @@ using System.Linq;
 using System.Globalization;
 using CodeBase;
 using WebServiceSerializer;
+using JustRemotePhone.RemotePhoneService;
 
 namespace OpenDentBusiness{
 	///<summary></summary>
@@ -245,7 +246,11 @@ namespace OpenDentBusiness{
 			if(listMessages==null || listMessages.Count==0) {
 				throw new Exception("No messages to send.");
 			}
-			System.Xml.Serialization.XmlSerializer xmlListSmsToMobileSerializer=new System.Xml.Serialization.XmlSerializer(typeof(List<SmsToMobile>));
+			foreach(SmsToMobile msg in listMessages)
+            {
+				Console.WriteLine(msg.MsgText);
+            }
+			/*System.Xml.Serialization.XmlSerializer xmlListSmsToMobileSerializer=new System.Xml.Serialization.XmlSerializer(typeof(List<SmsToMobile>));
 			StringBuilder strbuild=new StringBuilder();
 			using(XmlWriter writer=XmlWriter.Create(strbuild,WebSerializer.CreateXmlWriterSettings(true))){
 				writer.WriteStartElement("Payload");
@@ -274,7 +279,7 @@ namespace OpenDentBusiness{
 			listMessages=(List<SmsToMobile>)xmlListSmsToMobileSerializer.Deserialize(reader);			
 			if(listMessages is null) { //List should always be there even if it's empty.
 				throw new Exception(nodeError?.InnerText??"Output node not found: Error");
-			}
+			}*/
 			return listMessages;
 		}
 	}

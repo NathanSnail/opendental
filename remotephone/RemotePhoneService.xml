@@ -1,0 +1,418 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RemotePhoneService</name>
+    </assembly>
+    <members>
+        <member name="T:JustRemotePhone.RemotePhoneService.ApplicationStateChangedDelegate">
+            <summary>
+            Delegate for the <see cref="E:JustRemotePhone.RemotePhoneService.Application.ApplicationStateChanged"/>-event.
+            </summary>
+            <param name="newState">The new state.</param>
+            <param name="oldState">The old state.</param>
+        </member>
+        <member name="T:JustRemotePhone.RemotePhoneService.WindowActivationModesChangedDelegate">
+            <summary>
+            Delegate for events fired for changes of the window activation modes. (see <see cref="E:JustRemotePhone.RemotePhoneService.Application.RequestWindowActivationModesChanged"/> and <see cref="E:JustRemotePhone.RemotePhoneService.Application.ActiveWindowActivationModesChanged"/>)
+            </summary>
+            <param name="newModes">The new modes.</param>
+            <param name="oldModes">The old modes.</param>
+        </member>
+        <member name="T:JustRemotePhone.RemotePhoneService.Application">
+            <summary>
+            The application object for CallCenter.
+            </summary>
+        </member>
+        <member name="M:JustRemotePhone.RemotePhoneService.Application.#ctor(System.String)">
+            <summary>
+            Creates a new remote CallCenter application instance. Before a remote CallCenter process can be controlled via this instance
+            the application needs to be connected. For this purpose, the <see cref="M:JustRemotePhone.RemotePhoneService.Application.BeginConnect(System.Boolean)"/>-method needs to be invoked.
+            This constructor should be called from the main GUI-thread to allow the Application-events to be fired in the context of this thread.
+            </summary>
+            <param name="clientDescription">A human readable text which is shown in the grant permission dialog opened by CallCenter.</param>
+        </member>
+        <member name="P:JustRemotePhone.RemotePhoneService.Application.Phone">
+            <summary>
+            The phone object of this application. If connected, this instance can be used to control the remote phone.
+            </summary>
+        </member>
+        <member name="E:JustRemotePhone.RemotePhoneService.Application.ApplicationStateChanged">
+            <summary>
+            Fired after the <see cref="P:JustRemotePhone.RemotePhoneService.Application.State"/>-property has changed.
+            </summary>
+        </member>
+        <member name="P:JustRemotePhone.RemotePhoneService.Application.State">
+            <summary>
+            The current state of this application. Gives information about the current connection state.
+            </summary>
+        </member>
+        <member name="M:JustRemotePhone.RemotePhoneService.Application.BeginConnect(System.Boolean)">
+            <summary>
+            Starts the connection loop. The application tries to connect to the CallCenter process until <see cref="M:JustRemotePhone.RemotePhoneService.Application.BeginDisconnect"/> is invoked
+            or CallCenter denies the access.
+            </summary>
+            <param name="startCallCenter">If true and no running CallCenter process is found, CallCenter will be started</param>
+        </member>
+        <member name="M:JustRemotePhone.RemotePhoneService.Application.BeginDisconnect">
+            <summary>
+            Disconnects this instance from a remote CallCenter process and stops the connection loop.
+            </summary>
+        </member>
+        <member name="E:JustRemotePhone.RemotePhoneService.Application.RequestWindowActivationModesChanged">
+            <summary>
+            Fired after the <see cref="P:JustRemotePhone.RemotePhoneService.Application.RequestedWindowActivationMode"/>-property has changed.
+            </summary>
+        </member>
+        <member name="M:JustRemotePhone.RemotePhoneService.Application.RequestWindowActivationModes(JustRemotePhone.RemotePhoneService.WindowActivationModes)">
+            <summary>
+            Requests a certain behavior for the activation of the CallCenter window. The <see cref="P:JustRemotePhone.RemotePhoneService.Application.ActiveWindowActivationModes"/>-property
+            shows the current active window activation modes.
+            </summary>
+            <param name="modes">The requested modes.</param>
+        </member>
+        <member name="P:JustRemotePhone.RemotePhoneService.Application.RequestedWindowActivationMode">
+            <summary>
+            The last requested window activation mode. Invoke the <see cref="M:JustRemotePhone.RemotePhoneService.Application.RequestWindowActivationModes(JustRemotePhone.RemotePhoneService.WindowActivationModes)"/>-method to set a new mode. 
+            </summary>
+        </member>
+        <member name="E:JustRemotePhone.RemotePhoneService.Application.ActiveWindowActivationModesChanged">
+            <summary>
+            Fired after the <see cref="P:JustRemotePhone.RemotePhoneService.Application.ActiveWindowActivationModes"/>-property has changed.
+            </summary>
+        </member>
+        <member name="P:JustRemotePhone.RemotePhoneService.Application.ActiveWindowActivationModes">
+            <summary>
+            Shows the current active window activation modes of CallCenter. You can request a certain activation mode via the
+            <see cref="M:JustRemotePhone.RemotePhoneService.Application.RequestWindowActivationModes(JustRemotePhone.RemotePhoneService.WindowActivationModes)"/>. The active modes depends on the granted rights and the requested modes of other clients.
+            </summary>
+        </member>
+        <member name="M:JustRemotePhone.RemotePhoneService.Application.ActivateWindow">
+            <summary>
+            Activates the CallCenter window.
+            </summary>
+        </member>
+        <member name="E:JustRemotePhone.RemotePhoneService.Application.PropertyChanged">
+            <summary>
+            Fired for all property changes. (implements <see cref="T:System.ComponentModel.INotifyPropertyChanged"/>)
+            </summary>
+        </member>
+        <member name="T:JustRemotePhone.RemotePhoneService.ApplicationState">
+            <summary>
+            The possible states of the <see cref="T:JustRemotePhone.RemotePhoneService.Application"/> object.
+            </summary>
+        </member>
+        <member name="F:JustRemotePhone.RemotePhoneService.ApplicationState.Disconnected">
+            <summary>
+            The application is not connected to the CallCenter process.
+            </summary>
+        </member>
+        <member name="F:JustRemotePhone.RemotePhoneService.ApplicationState.StartingCallCenter">
+            <summary>
+            The application has started the connection loop and ties to start a CallCenter process if no running process could be found.
+            </summary>
+        </member>
+        <member name="F:JustRemotePhone.RemotePhoneService.ApplicationState.WaitingForConnection">
+            <summary>
+            The Application's connection loop is running and waiting for a CallCenter process.
+            </summary>
+        </member>
+        <member name="F:JustRemotePhone.RemotePhoneService.ApplicationState.Connecting">
+            <summary>
+            The Application has found a CallCenter process in tries to connect to this process.
+            </summary>
+        </member>
+        <member name="F:JustRemotePhone.RemotePhoneService.ApplicationState.Connected">
+            <summary>
+            The Application is connected to a CallCenter process.
+            </summary>
+        </member>
+        <member name="T:JustRemotePhone.RemotePhoneService.WindowActivationModes">
+            <summary>
+            Possible CallCenter window activation modes. This is a bit mask enumeration!
+            </summary>
+        </member>
+        <member name="F:JustRemotePhone.RemotePhoneService.WindowActivationModes.SuppressActivationForIncomingCalls">
+            <summary>
+            The CallCenter window should not be activated for incoming calls.
+            </summary>
+        </member>
+        <member name="F:JustRemotePhone.RemotePhoneService.WindowActivationModes.SuppressActivationForOutgoingCalls">
+            <summary>
+            The CallCenter window should not be activated for outgoing calls.
+            </summary>
+        </member>
+        <member name="T:JustRemotePhone.RemotePhoneService.PhoneState">
+            <summary>
+            Possible states for the <see cref="T:JustRemotePhone.RemotePhoneService.Phone"/> object.
+            </summary>
+        </member>
+        <member name="F:JustRemotePhone.RemotePhoneService.PhoneState.Idle">
+            <summary>
+            The remote phone is idle.
+            </summary>
+        </member>
+        <member name="F:JustRemotePhone.RemotePhoneService.PhoneState.OffHook">
+            <summary>
+            An incoming or outgoing call is active.
+            </summary>
+        </member>
+        <member name="F:JustRemotePhone.RemotePhoneService.PhoneState.Ringing">
+            <summary>
+            The phone is ringing.
+            </summary>
+        </member>
+        <member name="F:JustRemotePhone.RemotePhoneService.PhoneState.Unknown">
+            <summary>
+            The phone state is unknown. Either the Application is not connected to a CallCenter process or CallCenter is not connected to a remote phone.
+            </summary>
+        </member>
+        <member name="T:JustRemotePhone.RemotePhoneService.PhoneActionState">
+            <summary>
+            The state of the currently pending phone command.
+            </summary>
+        </member>
+        <member name="F:JustRemotePhone.RemotePhoneService.PhoneActionState.None">
+            <summary>
+            No command is in progress.
+            </summary>
+        </member>
+        <member name="F:JustRemotePhone.RemotePhoneService.PhoneActionState.CallStarting">
+            <summary>
+            A new call is starting.
+            </summary>
+        </member>
+        <member name="F:JustRemotePhone.RemotePhoneService.PhoneActionState.CallAccepting">
+            <summary>
+            An incoming call is to be accepted.
+            </summary>
+        </member>
+        <member name="F:JustRemotePhone.RemotePhoneService.PhoneActionState.CallEnding">
+            <summary>
+            An active call is ending.
+            </summary>
+        </member>
+        <member name="F:JustRemotePhone.RemotePhoneService.PhoneActionState.Unknown">
+            <summary>
+            The current command action is unknown because the Application is not connected to a CallCenter process.
+            </summary>
+        </member>
+        <member name="T:JustRemotePhone.RemotePhoneService.SMSSentResult">
+            <summary>
+            SMS send result codes.
+            </summary>
+        </member>
+        <member name="F:JustRemotePhone.RemotePhoneService.SMSSentResult.Ok">
+            <summary>
+            SMS was successfully sent.
+            </summary>
+        </member>
+        <member name="F:JustRemotePhone.RemotePhoneService.SMSSentResult.ErrorGeneric">
+            <summary>
+            An unknown generic error happens.
+            </summary>
+        </member>
+        <member name="F:JustRemotePhone.RemotePhoneService.SMSSentResult.ErrorNoService">
+            <summary>
+            No radio services
+            </summary>
+        </member>
+        <member name="F:JustRemotePhone.RemotePhoneService.SMSSentResult.ErrorRadioOff">
+            <summary>
+            Radio is off.
+            </summary>
+        </member>
+        <member name="F:JustRemotePhone.RemotePhoneService.SMSSentResult.ErrorMaximumSMSPerMonth">
+            <summary>
+            The maximum allowed SMS messages per month are reached. (can be reset on the Remote Phone settings screen on the phone)
+            </summary>
+        </member>
+        <member name="T:JustRemotePhone.RemotePhoneService.NamespaceDoc">
+            <summary>
+            This is the API reference for the CallCenter SDK. CallCenter (see <see href="http://www.justremotephone.com">www.justremotephone.com</see>)
+            is the client application of Remote Phone Call which allows to control
+            a remote Android phone from a Windows desktop. This API enables application developers to dial numbers, to send SMS messages, to end calls, to accept calls and 
+            to control the CallCenter main window activation behavior.
+            </summary>
+        </member>
+        <member name="T:JustRemotePhone.RemotePhoneService.PhoneStateChangedDelegate">
+            <summary>
+            Delegate for the <see cref="E:JustRemotePhone.RemotePhoneService.Phone.PhoneStateChanged"/>-event.
+            </summary>
+            <param name="newState">The new state.</param>
+            <param name="oldState">The old state.</param>
+        </member>
+        <member name="T:JustRemotePhone.RemotePhoneService.PhoneActionStateChangedDelegate">
+            <summary>
+            Delegate for the <see cref="E:JustRemotePhone.RemotePhoneService.Phone.PhoneActionStateChanged"/>-event.
+            </summary>
+            <param name="newState">The new state.</param>
+            <param name="oldState">The old state.</param>
+        </member>
+        <member name="T:JustRemotePhone.RemotePhoneService.ActiveNumberChangedDelegate">
+            <summary>
+            Delegate for the <see cref="E:JustRemotePhone.RemotePhoneService.Phone.ActiveNumberChanged"/>-event.
+            </summary>
+            <param name="newActiveNumber">The new active number.</param>
+            <param name="oldActiveNumber">The old active number.</param>
+        </member>
+        <member name="T:JustRemotePhone.RemotePhoneService.ActiveContactLabelChangedDelegate">
+            <summary>
+            Delegate for the <see cref="E:JustRemotePhone.RemotePhoneService.Phone.ActiveContactLabelChanged"/>-event.
+            </summary>
+            <param name="newActiveContactLabel">The new active contact label.</param>
+            <param name="oldActiveContactLabel">The old active contact label.</param>
+        </member>
+        <member name="T:JustRemotePhone.RemotePhoneService.NumberToCallPendingChangedDelegate">
+            <summary>
+            Delegate for the <see cref="E:JustRemotePhone.RemotePhoneService.Phone.NumberToCallPendingChanged"/>-event.
+            </summary>
+            <param name="newNumber">The new number.</param>
+            <param name="oldNumber">The old number.</param>
+        </member>
+        <member name="T:JustRemotePhone.RemotePhoneService.NumbersForCreateSMSPendingChangedDelegate">
+            <summary>
+            Delegate for the <see cref="E:JustRemotePhone.RemotePhoneService.Phone.NumbersForCreateSMSPendingChanged"/>-event.
+            </summary>
+            <param name="newNumbers">The new numbers.</param>
+            <param name="oldNumbers">The old numbers.</param>
+        </member>
+        <member name="T:JustRemotePhone.RemotePhoneService.SMSSendResultDelegate">
+            <summary>
+            Delegate for the <see cref="E:JustRemotePhone.RemotePhoneService.Phone.SMSSendResult"/>-event.
+            </summary>
+            <param name="smsSendRequestId">The message id for the previously sent message.</param>
+            <param name="numbers">The recipient numbers.</param>
+            <param name="results">The result codes for the corresponding recipient numbers.</param>
+        </member>
+        <member name="T:JustRemotePhone.RemotePhoneService.SMSReceivedDelegate">
+            <summary>
+            Delegate for the <see cref="E:JustRemotePhone.RemotePhoneService.Phone.SMSReceived"/>-event.
+            </summary>
+            <param name="number">The sender number.</param>
+            <param name="contactLabel">The sender contact label.</param>
+            <param name="text">The SMS text.</param>
+        </member>
+        <member name="T:JustRemotePhone.RemotePhoneService.Phone">
+            <summary>
+            The phone object which can be used to control the remote phone.
+            The instance of this object is accessible through the <see cref="P:JustRemotePhone.RemotePhoneService.Application.Phone"/>-property.
+            </summary>
+        </member>
+        <member name="M:JustRemotePhone.RemotePhoneService.Phone.Call(System.String)">
+            <summary>
+            Starts calling the given number. In the case this service is not connected to the CallCenter-application
+            (<see cref="P:JustRemotePhone.RemotePhoneService.Application.State" /> is unequal to <see cref="F:JustRemotePhone.RemotePhoneService.ApplicationState.Connected"/>) or the phone is not connected
+            to CallCenter (<see cref="P:JustRemotePhone.RemotePhoneService.Phone.State"/>) equals <see cref="F:JustRemotePhone.RemotePhoneService.PhoneState.Unknown"/>) the given number is queued
+            for some seconds to be dialed immediately after a connection to the phone has been established.
+            The queued number can be watch via the property <see cref="P:JustRemotePhone.RemotePhoneService.Phone.NumberToCallPending"/>.
+            </summary>
+            <param name="number">The number to be called.</param>
+        </member>
+        <member name="M:JustRemotePhone.RemotePhoneService.Phone.EndCall">
+            <summary>
+            Requests to end the active call.
+            </summary>
+        </member>
+        <member name="M:JustRemotePhone.RemotePhoneService.Phone.AcceptCall">
+            <summary>
+            Accepts an incoming call.
+            </summary>
+        </member>
+        <member name="M:JustRemotePhone.RemotePhoneService.Phone.CreateSMS(System.String[])">
+            <summary>
+            Starts the creation of a new SMS for the given numbers. In the case this service is not connected to the 
+            CallCenter-application (<see cref="P:JustRemotePhone.RemotePhoneService.Application.State"/> is unequal to <see cref="F:JustRemotePhone.RemotePhoneService.ApplicationState.Connected"/>) or 
+            the phone is not connected to CallCenter (<see cref="P:JustRemotePhone.RemotePhoneService.Phone.State"/> equals <see cref="F:JustRemotePhone.RemotePhoneService.PhoneState.Unknown"/>) 
+            the given numbers are queued for some seconds to be used for the SMS creation immediately after a connection to the
+            phone has been established. The queued numbers can be watched via the property <see cref="P:JustRemotePhone.RemotePhoneService.Phone.NumbersForCreateSMSPending"/>.
+            </summary>
+            <param name="numbers">The numbers for the new SMS.</param>
+        </member>
+        <member name="M:JustRemotePhone.RemotePhoneService.Phone.SendSMS(System.String[],System.String,System.Guid@)">
+            <summary>
+            Send a SMS message with the given text to the given numbers.
+            </summary>
+            <param name="numbers">The SMS recepients.</param>
+            <param name="text">The SMS text.</param>
+            <param name="sendSMSRequestId">An unique id witch could be uesed to map SMS sent results.(see <see cref="E:JustRemotePhone.RemotePhoneService.Phone.SMSSendResult"/>)</param>
+        </member>
+        <member name="E:JustRemotePhone.RemotePhoneService.Phone.PhoneStateChanged">
+            <summary>
+            Fired after the <see cref="P:JustRemotePhone.RemotePhoneService.Phone.State"/>-property has changed.
+            </summary>
+        </member>
+        <member name="P:JustRemotePhone.RemotePhoneService.Phone.State">
+            <summary>
+            Shows the current state of the remote phone.
+            </summary>
+        </member>
+        <member name="E:JustRemotePhone.RemotePhoneService.Phone.PhoneActionStateChanged">
+            <summary>
+            Fired after the <see cref="P:JustRemotePhone.RemotePhoneService.Phone.ActionState"/>-property has changed.
+            </summary>
+        </member>
+        <member name="P:JustRemotePhone.RemotePhoneService.Phone.ActionState">
+            <summary>
+            Shows the state of a currently pending command.
+            </summary>
+        </member>
+        <member name="E:JustRemotePhone.RemotePhoneService.Phone.ActiveNumberChanged">
+            <summary>
+            Fired after the <see cref="P:JustRemotePhone.RemotePhoneService.Phone.ActiveNumber"/>-property has changed.
+            </summary>
+        </member>
+        <member name="P:JustRemotePhone.RemotePhoneService.Phone.ActiveNumber">
+            <summary>
+            The current active number. This is the number of a ringing call or the currently dialed number.
+            </summary>
+        </member>
+        <member name="E:JustRemotePhone.RemotePhoneService.Phone.ActiveContactLabelChanged">
+            <summary>
+            Fired after the <see cref="P:JustRemotePhone.RemotePhoneService.Phone.ActiveContactLabel"/>-property has changed.
+            </summary>
+        </member>
+        <member name="P:JustRemotePhone.RemotePhoneService.Phone.ActiveContactLabel">
+            <summary>
+            The current active contact label for the current active number int the case the contact is known.
+            </summary>
+        </member>
+        <member name="E:JustRemotePhone.RemotePhoneService.Phone.NumberToCallPendingChanged">
+            <summary>
+            Fired after the <see cref="P:JustRemotePhone.RemotePhoneService.Phone.NumberToCallPending"/>-property has changed.
+            </summary>
+        </member>
+        <member name="P:JustRemotePhone.RemotePhoneService.Phone.NumberToCallPending">
+            <summary>
+            The current pending number to be called. This number is queued by an invocation of the 
+            <see cref="M:JustRemotePhone.RemotePhoneService.Phone.Call(System.String)"/>-method while the phone is not connected. If the phone will be connected within some seconds,
+            this number will be dialed. Otherwise the number will be reset.
+            </summary>
+        </member>
+        <member name="E:JustRemotePhone.RemotePhoneService.Phone.NumbersForCreateSMSPendingChanged">
+            <summary>
+            Fired after the <see cref="P:JustRemotePhone.RemotePhoneService.Phone.NumbersForCreateSMSPending"/>-event has changed.
+            </summary>
+        </member>
+        <member name="P:JustRemotePhone.RemotePhoneService.Phone.NumbersForCreateSMSPending">
+            <summary>
+            The current pending numbers for creating a new SMS. This numbers are queued by an invocation of the <see cref="M:JustRemotePhone.RemotePhoneService.Phone.CreateSMS(System.String[])"/>-method while the phone is not connected. If the phone is connected within some seconds,
+            these numbers will be used for creating a new SMS. Otherwise the numbers will be reset.
+            </summary>
+        </member>
+        <member name="E:JustRemotePhone.RemotePhoneService.Phone.SMSSendResult">
+            <summary>
+            Fired after the results of a previous call of <see cref="M:JustRemotePhone.RemotePhoneService.Phone.SendSMS(System.String[],System.String,System.Guid@)"/> are received.
+            </summary>
+        </member>
+        <member name="E:JustRemotePhone.RemotePhoneService.Phone.SMSReceived">
+            <summary>
+            Fired for new incoming SMS messages.
+            </summary>
+        </member>
+        <member name="E:JustRemotePhone.RemotePhoneService.Phone.PropertyChanged">
+            <summary>
+            Fired for all property changes. (implements <see cref="T:System.ComponentModel.INotifyPropertyChanged"/>)
+            </summary>
+        </member>
+    </members>
+</doc>
