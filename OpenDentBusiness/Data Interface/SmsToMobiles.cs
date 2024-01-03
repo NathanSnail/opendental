@@ -238,6 +238,7 @@ namespace OpenDentBusiness{
 		///All Integrated Texting should use this method, CallFire texting does not use this method.</summary>
 		public static List<SmsToMobile> SendSms(List<SmsToMobile> listMessages) {
 			//No need to check MiddleTierRole; no call to db.
+			Console.WriteLine("sending sms!");
 			if(Plugins.HookMethod(null,"SmsToMobiles.SendSms_start",listMessages)) {
 				return new List<SmsToMobile>();
 			}

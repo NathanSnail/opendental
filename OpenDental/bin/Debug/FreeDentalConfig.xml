@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConnectionSettings>
+    <DatabaseConnection>
+        <ComputerName>localhost</ComputerName>
+        <Database>demo</Database>
+        <User>root</User>
+        <Password></Password>
+        <MySQLPassHash>TVWRgG00ZNvbofYBj+OH3Q==</MySQLPassHash>
+        <NoShowOnStartup>True</NoShowOnStartup>
+    </DatabaseConnection>
+    <DatabaseType>MySql</DatabaseType>
+    <UseDynamicMode>False</UseDynamicMode>
+</ConnectionSettings>

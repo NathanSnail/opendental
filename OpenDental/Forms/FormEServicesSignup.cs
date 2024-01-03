@@ -60,7 +60,7 @@ namespace OpenDental {
 				_signupOut=FormEServicesSetup.GetSignupOut();
 			}
 			ODException.SwallowAnyException(() => {
-			if(ODBuild.IsDebug()) {
+			if(ODBuild.IsDebug()) { // breaks stuff
 				_signupOut.SignupPortalUrl=_signupOut.SignupPortalUrl.Replace("https://www.patientviewer.com/SignupPortal/GWT/SignupPortal/SignupPortal.html","http://127.0.0.1:8888/SignupPortal.html");
 			}
 				webViewMain.CoreWebView2.Navigate(_signupOut.SignupPortalUrl);

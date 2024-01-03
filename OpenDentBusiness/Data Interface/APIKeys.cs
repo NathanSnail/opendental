@@ -81,7 +81,10 @@ namespace OpenDentBusiness{
 			xmlDocument.LoadXml(result);
 			XPathNavigator xPathNavigator=xmlDocument.CreateNavigator();
 			//Process errors------------------------------------------------------------------------------------------------------------
-			XPathNavigator xPathNavigatorNode=xPathNavigator.SelectSingleNode("//Error");
+			Console.WriteLine(xPathNavigator.ToString());
+			Console.WriteLine("check xml errors");
+			Console.WriteLine(xPathNavigator.ToString());
+			XPathNavigator xPathNavigatorNode = xPathNavigator.SelectSingleNode("//Error");
 			if(xPathNavigatorNode!=null) {
 				throw new Exception(xPathNavigatorNode.Value);
 			}

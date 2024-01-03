@@ -1,0 +1,11 @@
+C:\Users\natha\Documents\code\old_dental2\UpdateFileCopier\bin\Debug\UpdateFileCopier.exe.config
+C:\Users\natha\Documents\code\old_dental2\UpdateFileCopier\bin\Debug\UpdateFileCopier.exe
+C:\Users\natha\Documents\code\old_dental2\UpdateFileCopier\bin\Debug\UpdateFileCopier.pdb
+C:\Users\natha\Documents\code\old_dental2\UpdateFileCopier\obj\x86\Debug\UpdateFileCopier.csproj.AssemblyReference.cache
+C:\Users\natha\Documents\code\old_dental2\UpdateFileCopier\obj\x86\Debug\UpdateFileCopier.MsgBoxCopyPaste.resources
+C:\Users\natha\Documents\code\old_dental2\UpdateFileCopier\obj\x86\Debug\UpdateFileCopier.FormMain.resources
+C:\Users\natha\Documents\code\old_dental2\UpdateFileCopier\obj\x86\Debug\UpdateFileCopier.Properties.Resources.resources
+C:\Users\natha\Documents\code\old_dental2\UpdateFileCopier\obj\x86\Debug\UpdateFileCopier.csproj.GenerateResource.cache
+C:\Users\natha\Documents\code\old_dental2\UpdateFileCopier\obj\x86\Debug\UpdateFileCopier.csproj.CoreCompileInputs.cache
+C:\Users\natha\Documents\code\old_dental2\UpdateFileCopier\obj\x86\Debug\UpdateFileCopier.exe
+C:\Users\natha\Documents\code\old_dental2\UpdateFileCopier\obj\x86\Debug\UpdateFileCopier.pdb
