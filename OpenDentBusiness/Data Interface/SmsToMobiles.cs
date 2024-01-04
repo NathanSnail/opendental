@@ -247,9 +247,20 @@ namespace OpenDentBusiness{
 				throw new Exception("No messages to send.");
 			}
 			foreach(SmsToMobile msg in listMessages)
-            {
+			{ // diafaan is "6421467784" number
+				Console.WriteLine("\n\n\n\n\n");
+				Application app = new Application("test"); // remote phone
+				app.BeginConnect(true);
+				string[] to = { "+64 21467784" };
+				Guid res;
+				Console.WriteLine(msg.MobilePhoneNumber);
 				Console.WriteLine(msg.MsgText);
-            }
+				app.Phone.CreateSMS(to);
+				app.Phone.SendSMS(to, "hello world",out res);
+				//app.Phone.Call("+64 21467784");
+				//Console.WriteLine(res);
+				Console.WriteLine("\n\n\n\n\n");
+			}
 			/*System.Xml.Serialization.XmlSerializer xmlListSmsToMobileSerializer=new System.Xml.Serialization.XmlSerializer(typeof(List<SmsToMobile>));
 			StringBuilder strbuild=new StringBuilder();
 			using(XmlWriter writer=XmlWriter.Create(strbuild,WebSerializer.CreateXmlWriterSettings(true))){
