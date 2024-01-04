@@ -9,7 +9,7 @@
     <AssemblyTitle>OpenDentBusiness</AssemblyTitle>
     <Product>OpenDentBusiness</Product>
     <Copyright>Copyright ©  2006</Copyright>
-    <AssemblyVersion>22.4.62.0</AssemblyVersion>
+	 <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
     <FileVersion>22.4.62.0</FileVersion>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
