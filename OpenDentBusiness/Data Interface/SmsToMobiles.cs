@@ -11,6 +11,7 @@ using WebServiceSerializer;
 using System.Net.Http;
 using System.IO;
 using System.Web;
+using Nito.AsyncEx;
 
 namespace OpenDentBusiness{
 	///<summary></summary>
@@ -256,7 +257,12 @@ namespace OpenDentBusiness{
 			}
 			if (auth == null)
 			{
-				auth = File.ReadLines("./auth").GetEnumerator().Current;
+				foreach (string line in File.ReadLines("./auth"))
+                {
+					if (line.Contains("&")) {
+						auth = line;
+					}
+				}
 			}
 			foreach (SmsToMobile msg in listMessages)
 			{
@@ -265,7 +271,7 @@ namespace OpenDentBusiness{
 				// http://localhost:9710/http/send-message?username=admin&password=password&to=%6421467784&message-type=sms.automatic&message=Message+Text
 				var response = AsyncContext.Run(async () => await sharedClient.GetAsync(send));
 				// diafaan is "6421467784" number
-				response.EnsureSuccessStatusCode().WriteRequestToConsole();
+				response.EnsureSuccessStatusCode();
 				/*Console.WriteLine("\n\n\n\n\n");
 				Application app = new Application("test"); // remote phone
 				app.BeginConnect(true);
