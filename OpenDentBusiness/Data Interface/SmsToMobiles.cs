@@ -9,6 +9,8 @@ using System.Globalization;
 using CodeBase;
 using WebServiceSerializer;
 using System.Net.Http;
+using System.IO;
+using System.Web;
 
 namespace OpenDentBusiness{
 	///<summary></summary>
@@ -16,7 +18,11 @@ namespace OpenDentBusiness{
 		///<summary>The amount that is charged per outgoing text. The actual charge may be higher if the message contains multiple pages.</summary>
 		public const double CHARGE_PER_MSG=0.04;
 
-		private static HttpClient sharedClient = null;
+		private static HttpClient sharedClient = new HttpClient()
+		{
+			BaseAddress = new Uri("http://localhost:9710/"),
+		};
+		private static string auth = null;
 
 		#region Insert
 
@@ -248,14 +254,21 @@ namespace OpenDentBusiness{
 			if(listMessages==null || listMessages.Count==0) {
 				throw new Exception("No messages to send.");
 			}
-			foreach(SmsToMobile msg in listMessages)
-			{ 
-				if (sharedClient == null) {
-					sharedClient = new HttpClient()
-					{
-						BaseAddress = new Uri("http://localhost:9710/http/send-message"),
-					};
-				}
+			if (auth == null)
+			{
+				auth = File.ReadLines("./auth").GetEnumerator().Current;
+			}
+			foreach (SmsToMobile msg in listMessages)
+			{
+				string send = "http/send-message?message-type=sms.automatic&" + auth + "&to=" + msg.MobilePhoneNumber + "&message=" + HttpUtility.UrlEncode(msg.MsgText);
+				Console.WriteLine(send);
+				// http://localhost:9710/http/send-message?username=admin&password=password&to=%6421467784&message-type=sms.automatic&message=Message+Text
+				var response = AsyncContext.Run(async () => await sharedClient.GetAsync(send));
+				// diafaan is "6421467784" number
+				response.EnsureSuccessStatusCode().WriteRequestToConsole();
+				/*Console.WriteLine("\n\n\n\n\n");
+				Application app = new Application("test"); // remote phone
+				app.BeginConnect(true);
 				// diafaan is "6421467784" number
 				/*Console.WriteLine("\n\n\n\n\n");
 				Application app = new Application("test"); // remote phone
