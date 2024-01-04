@@ -8,13 +8,15 @@ using System.Linq;
 using System.Globalization;
 using CodeBase;
 using WebServiceSerializer;
-using JustRemotePhone.RemotePhoneService;
+using System.Net.Http;
 
 namespace OpenDentBusiness{
 	///<summary></summary>
 	public class SmsToMobiles{
 		///<summary>The amount that is charged per outgoing text. The actual charge may be higher if the message contains multiple pages.</summary>
 		public const double CHARGE_PER_MSG=0.04;
+
+		private static HttpClient sharedClient = null;
 
 		#region Insert
 
@@ -247,8 +249,15 @@ namespace OpenDentBusiness{
 				throw new Exception("No messages to send.");
 			}
 			foreach(SmsToMobile msg in listMessages)
-			{ // diafaan is "6421467784" number
-				Console.WriteLine("\n\n\n\n\n");
+			{ 
+				if (sharedClient == null) {
+					sharedClient = new HttpClient()
+					{
+						BaseAddress = new Uri("http://localhost:9710/http/send-message"),
+					};
+				}
+				// diafaan is "6421467784" number
+				/*Console.WriteLine("\n\n\n\n\n");
 				Application app = new Application("test"); // remote phone
 				app.BeginConnect(true);
 				string[] to = { "+64 21467784" };
@@ -259,7 +268,8 @@ namespace OpenDentBusiness{
 				app.Phone.SendSMS(to, "hello world",out res);
 				//app.Phone.Call("+64 21467784");
 				//Console.WriteLine(res);
-				Console.WriteLine("\n\n\n\n\n");
+				Console.WriteLine("\n\n\n\n\n");*/
+
 			}
 			/*System.Xml.Serialization.XmlSerializer xmlListSmsToMobileSerializer=new System.Xml.Serialization.XmlSerializer(typeof(List<SmsToMobile>));
 			StringBuilder strbuild=new StringBuilder();

@@ -1,0 +1,852 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <ProjectGuid>{3D0FC76E-803C-4DE2-BDB1-47D63A4E2357}</ProjectGuid>
+    <FileUpgradeFlags />
+    <UpgradeBackupLocation />
+    <TargetFramework>net472</TargetFramework>
+    <ResGenToolArchitecture>Managed32Bit</ResGenToolArchitecture>
+    <AssemblyTitle>OpenDentBusiness</AssemblyTitle>
+    <Product>OpenDentBusiness</Product>
+    <Copyright>Copyright ©  2006</Copyright>
+    <AssemblyVersion>22.4.62.0</AssemblyVersion>
+    <FileVersion>22.4.62.0</FileVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <AssemblyName>OpenDentBusiness</AssemblyName>
+    <RootNamespace>OpenDentBusiness</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <WarningLevel>3</WarningLevel>
+    <DocumentationFile>bin\$(Configuration)\OpenDentBusiness.xml</DocumentationFile>
+    <AssemblyName>OpenDentBusiness</AssemblyName>
+    <DebugSymbols>true</DebugSymbols>
+    <RootNamespace>OpenDentBusiness</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <DocumentationFile>bin\$(Configuration)\OpenDentBusiness.xml</DocumentationFile>
+    <WarningLevel>3</WarningLevel>
+    <DebugType>pdbonly</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'ODXam|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>bin\Release\OpenDentBusiness.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <WarningLevel>3</WarningLevel>
+    <DebugType>pdbonly</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'ODXam|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>bin\Release\OpenDentBusiness.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <WarningLevel>3</WarningLevel>
+    <DebugType>pdbonly</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="6.9.9" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Avalara.AvaTax.RestClient.net45">
+      <HintPath>..\Required dlls\Avalara.AvaTax.RestClient.net45.dll</HintPath>
+    </Reference>
+    <Reference Include="Bridges, Version=21.1.0.0, Culture=neutral, processorArchitecture=x86">
+      <HintPath>..\Required dlls\Bridges.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="CDT, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\Required dlls\CDT.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Dicom.Core, Version=4.0.7.0, Culture=neutral, PublicKeyToken=3a13f649e28eb09a, processorArchitecture=MSIL">
+      <HintPath>..\Required dlls\Dicom.Core.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Dicom.Native, Version=4.0.7.0, Culture=neutral, PublicKeyToken=3a13f649e28eb09a, processorArchitecture=x86">
+      <HintPath>..\Required dlls\Dicom.Native.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Google.Apis, Version=1.44.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\Required dlls\Google.Apis.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Google.Apis.Auth">
+      <HintPath>..\Required dlls\Google.Apis.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Auth.PlatformServices">
+      <HintPath>..\Required dlls\Google.Apis.Auth.PlatformServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Core, Version=1.44.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\Required dlls\Google.Apis.Core.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Google.Apis.Gmail.v1">
+      <HintPath>..\Required dlls\Google.Apis.Gmail.v1.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.PlatformServices">
+      <HintPath>..\Required dlls\Google.Apis.PlatformServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Health.Direct.Agent">
+      <HintPath>..\Required dlls\Health.Direct.Agent.dll</HintPath>
+    </Reference>
+    <Reference Include="Health.Direct.Common">
+      <HintPath>..\Required dlls\Health.Direct.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Health.Direct.ResolverPlugins">
+      <HintPath>..\Required dlls\Health.Direct.ResolverPlugins.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.Word, Version=8.2.0.0, Culture=neutral">
+      <HintPath>..\Required dlls\Interop.Word.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>..\Required dlls\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="MailKit">
+      <HintPath>..\Required dlls\MailKit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Graph, Version=4.42.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\Required dlls\Microsoft.Graph.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.Graph.Core, Version=2.0.13.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\Required dlls\Microsoft.Graph.Core.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MimeKit">
+      <HintPath>..\Required dlls\MimeKit.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\Required dlls\MySql.Data.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\Required dlls\Newtonsoft.Json.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="ODCrypt, Version=18.2.7.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\Required dlls\ODCrypt.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="OpenPop">
+      <HintPath>..\Required dlls\OpenPop.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp, Version=1.2.1269.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\Required dlls\PdfSharp.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="RS232">
+      <HintPath>..\Required dlls\RS232.dll</HintPath>
+    </Reference>
+    <Reference Include="SigPlusNET">
+      <HintPath>..\Required dlls\SigPlusNET.dll</HintPath>
+    </Reference>
+    <Reference Include="Sparks3D">
+      <HintPath>..\Required dlls\Sparks3D\Sparks3D.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="Tamir.SharpSSH">
+      <HintPath>..\Required dlls\Tamir.SharpSSH.dll</HintPath>
+    </Reference>
+    <Reference Include="VirtualWeb, Version=22.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\Required dlls\VirtualWeb.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="UI\GridOld.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI\ODGridPageNav.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI\SignatureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="UI\SignatureBox.Designer.cs">
+      <DependentUpon>SignatureBox.cs</DependentUpon>
+    </Compile>
+    <Compile Update="UI\SignatureBoxWrapper.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI\SignatureBoxWrapper.Designer.cs">
+      <DependentUpon>SignatureBoxWrapper.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Web References\NewCropWebService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Update="Web References\DentalxchangePartnerService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Update="Web References\PayConnectService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Update="Web References\SheetsSynch\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Update="UI\GridOD.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Web References\com.dentalxchange.webservices\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Update="Web References\DoseSpotService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Update="Web References\customerUpdates\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Update="Web References\Dentalxchange2016\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Update="Web References\EmdeonITS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Update="Web References\localhost\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Update="Web References\WebServiceMainHQ\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Update="Web References\OpenDentalServer\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CodeBase\xCodeBase.csproj" />
+    <ProjectReference Include="..\DataConnectionBase\xDataConnectionBase.csproj" />
+    <ProjectReference Include="..\OpenDentalCloud\OpenDentalCloud.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="UI\GridCell.resx">
+      <DependentUpon>GridCell.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="UI\GridColumn.resx">
+      <DependentUpon>GridColumn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="UI\GridOld.resx">
+      <DependentUpon>GridOld.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="UI\GridOD.resx">
+      <DependentUpon>GridOD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="UI\GridRow.resx">
+      <DependentUpon>GridRow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="UI\ODGridPageNav.resx">
+      <DependentUpon>ODGridPageNav.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="UI\SignatureBoxWrapper.resx">
+      <DependentUpon>SignatureBoxWrapper.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\com.dentalxchange.webservices\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\com.dentalxchange.webservices\Response.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\com.dentalxchange.webservices\wsdl.wsdl" />
+    <None Include="Web References\Dentalxchange2016\PayerListInfoResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DentalxchangePartnerService\AttachmentReferenceResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DentalxchangePartnerService\DeaPartnerService.wsdl" />
+    <None Include="Web References\DentalxchangePartnerService\DeaPartnerService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\DentalxchangePartnerService\DeaPartnerService0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\DentalxchangePartnerService\DeaResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DentalxchangePartnerService\ImageReferenceResponses.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DentalxchangePartnerService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\DoseSpotService\AddAllergyResponse1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DoseSpotService\AddDetailedSelfReportedMedicationsResponse1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DoseSpotService\AddSelfReportedMedicationsResponse1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DoseSpotService\AllergyListResponse1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DoseSpotService\AllergySearchResponse1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DoseSpotService\api.wsdl" />
+    <None Include="Web References\DoseSpotService\CheckAllergyInteractionsResponse1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DoseSpotService\CheckClinicianRegistrationResponse1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DoseSpotService\CheckClinicianRegistrationStatusDetailedResponse1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DoseSpotService\ClinicAddResultMessage1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DoseSpotService\ClinicClinicianRemoveResultsMessage1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DoseSpotService\ClinicianAddMultipleClinicsResultsMessage1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DoseSpotService\ClinicianAddResultsMessage1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DoseSpotService\EditAllergyResponse1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DoseSpotService\GetMedicationListByDateRangeResponse1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DoseSpotService\GetMedicationListMUResponse1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DoseSpotService\GetMedicationListResponse1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DoseSpotService\GetPrescriberNotificationCountsMUResponse1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DoseSpotService\GetPrescriberNotificationCountsResponse1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DoseSpotService\GetRefillRequestsDetailsResponse1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DoseSpotService\GetStandardDispenseUnitResponse1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DoseSpotService\ImportMedicationsResponse1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DoseSpotService\MedHistoryConsentResponse1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DoseSpotService\MedicationQuickSearchResultsMessage1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DoseSpotService\MedicationSelectResultMessage1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DoseSpotService\MedicationStatusUpdateResponse1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DoseSpotService\MedicationStrengthSearchResultsMessage1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DoseSpotService\MedicationStrengthSearchResultsWithNDCMessage1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DoseSpotService\MergePatientsResponse1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DoseSpotService\PatientUpdateFullMessageResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DoseSpotService\PatientUpdateMessageMUResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DoseSpotService\PatientUpdateMessageResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DoseSpotService\PharmacySearchMessageDetailedResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DoseSpotService\PharmacySearchMessageResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DoseSpotService\PharmacyValidateMessageResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DoseSpotService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\customerUpdates\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\customerUpdates\Service1.wsdl" />
+    <None Include="Web References\Dentalxchange2016\ClaimPaymentListResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Dentalxchange2016\DwsService.wsdl" />
+    <None Include="Web References\Dentalxchange2016\DwsService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\Dentalxchange2016\DwsService0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\Dentalxchange2016\PayerListResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Dentalxchange2016\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\Dentalxchange2016\textResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\Dentalxchange2016\UnProcessedEraResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DoseSpotService\RefillRequestsTransmissionErrorsMessageResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DoseSpotService\SelfReportedMedicationSearchResponse1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\EmdeonITS\ItsReturn1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\EmdeonITS\ITSReturnA.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\EmdeonITS\ITSWS.wsdl" />
+    <None Include="Web References\EmdeonITS\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\localhost\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\localhost\Service1.wsdl" />
+    <None Include="Web References\NewCropWebService\AccountStatusDetailV2Result1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\CheckCancelRxStatusResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\CheckCancelRxStatusV2Result1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\CompleteBatchResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\CounselingMessageDetailResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\CreateRxChangeApprovalResponseResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\DigitalSigningBatchResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\DownloadDetailResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\DrugAllergyDetailResultV21.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\DrugDiseaseDetailResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\DrugDiseaseDetailResultV21.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\DrugFormularyDetailResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\DrugFormularyFavoriteDetailResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\DrugHistoryDetailResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\DrugHistoryDetailV3Result1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\DuplicateDrugTherapyResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\EligibilityDetailResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\EligibilityDetailResultV31.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\FormularyCoverageDetailResultV31.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\GetRxChangeDetailResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\GetRxChangesSummaryResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\GetRxChangesSummaryV2Result1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\GetRxChangeStatusResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\GetRxFillDetailResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\GetRxFillSummaryResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\HealthplanDetailResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\MessageTransactionStatusResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\PatientAllergyExtendedDetailResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\PatientAllergyExtendedDetailV4Result1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\PatientAllergyLogDetailResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\PatientDrugDetailResult41.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\PatientDrugDetailResult51.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\PatientFreeFormAllergyExtendedDetailResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\PDMPReviewDateByPatientDetailResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\PharmacyDetailResultV21.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\PharmacyDetailResultV41.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\PharmacyDetailResultV51.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\NewCropWebService\RegisterPrescriberDetailV2Result1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\RegistryDetailResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\RenewalDetailResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\RenewalDetailResultV41.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\RenewalDetailResultV51.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\RenewalListDetailResultV41.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\RenewalListSummaryResultV41.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\RenewalResponseDetailResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\RenewalSummaryResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\RenewalSummaryResultV21.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\ReportDetailResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\ReportDownloadResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\Result1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\RxBatchPrescriptionResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\RxBatchRenewalResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\RxBatchRenewalResultV21.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\RxChangeDeliveryStatusResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\SendCancelRxResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\StateDrugScheduleOverridesResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\TransmissionSummaryResult1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\NewCropWebService\Update1.wsdl" />
+    <None Include="Web References\PayConnectService\batchInfoResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayConnectService\cardType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayConnectService\merchantInfoResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayConnectService\MerchantService.wsdl" />
+    <None Include="Web References\PayConnectService\MerchantService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\PayConnectService\MerchantService0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\PayConnectService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\PayConnectService\signatureResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PayConnectService\transResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\SheetsSynch\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\SheetsSynch\SheetsSynch.wsdl" />
+    <None Include="Web References\WebServiceMainHQ\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WebServiceMainHQ\WebServiceMainHQ.wsdl">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\rxnorm.zip" />
+    <None Include="Web References\OpenDentalServer\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\OpenDentalServer\ServiceMain.disco" />
+    <None Include="Web References\OpenDentalServer\ServiceMain.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icd9.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ApptBackTest.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Patient Info.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\WebServiceMainHQ\WebServiceMainHQ.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\customerUpdates\Service1.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\localhost\Service1.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\NewCropWebService\Update1.disco" />
+    <None Include="Resources\COVID19.xml" />
+    <Content Include="Shared\README.txt" />
+    <Resource Include="Resources\topazPen10.gif" />
+    <None Include="Resources\RecallPastDue_R.png" />
+    <None Include="Resources\RecallPastDue_P.png" />
+    <None Include="Resources\Right.gif" />
+    <None Include="Resources\RxInstruction.xml" />
+    <None Include="Web References\SheetsSynch\SheetsSynch.disco" />
+    <None Include="Resources\Statement.xml" />
+    <None Include="Resources\Screening.xml" />
+    <None Include="Resources\RoutingSlip.xml" />
+    <None Include="Resources\ReferralSlip.xml" />
+    <None Include="Resources\ReferralLetter.xml" />
+    <None Include="Resources\Rx.xml" />
+    <None Include="Resources\DepositSlip.xml" />
+    <None Include="Resources\Consent.xml" />
+    <None Include="Resources\ExamSheet.xml" />
+    <None Include="Resources\FinancialAgreement.xml" />
+    <None Include="Resources\HIPAA.xml" />
+    <None Include="Resources\LabelAppointment.xml" />
+    <None Include="Resources\LabelCarrier.xml" />
+    <None Include="Resources\LabelPatientLFAddress.xml" />
+    <None Include="Resources\LabelPatientLFChartNumber.xml" />
+    <None Include="Resources\LabelPatientLFPatNum.xml" />
+    <None Include="Resources\LabelPatientMail.xml" />
+    <None Include="Resources\LabelPatientRadiograph.xml" />
+    <None Include="Resources\LabelReferral.xml" />
+    <None Include="Resources\LabelText.xml" />
+    <None Include="Resources\LabSlip.xml" />
+    <None Include="Resources\MedicalHistNewPat.xml" />
+    <None Include="Resources\MedicalHistSimple.xml" />
+    <None Include="Resources\MedicalHistUpdate.xml" />
+    <None Include="Resources\PatientLetter.xml" />
+    <None Include="Resources\PatientLetterTxFinder.xml" />
+    <None Include="Resources\PatientRegistration.xml" />
+    <None Include="Resources\ChartModuleStandardLayout.xml" />
+    <Content Include="Resources\ClaimForms\ClaimForm1500.xml" />
+    <Content Include="Resources\ClaimForms\ClaimForm1500_02_12.xml" />
+    <Content Include="Resources\ClaimForms\ClaimFormADA 2000.xml" />
+    <Content Include="Resources\ClaimForms\ClaimFormADA 2002.xml" />
+    <Content Include="Resources\ClaimForms\ClaimFormADA 2006.xml" />
+    <Content Include="Resources\ClaimForms\ClaimFormADA 2012.xml" />
+    <Content Include="Resources\ClaimForms\ClaimFormADA 2012_J430D.xml" />
+    <None Include="Resources\ClaimForms\ClaimFormADA 2018.xml" />
+    <Content Include="Resources\ClaimForms\ClaimFormADA 2019.xml" />
+    <Content Include="Resources\ClaimForms\ClaimFormDenti-Cal.xml" />
+    <Content Include="Resources\ClaimForms\ClaimFormHCFA-1500 preprinted.xml" />
+    <Content Include="Resources\ClaimForms\ClaimFormHCFA-1500.xml" />
+    <Content Include="Resources\ClaimForms\ClaimFormUB04.xml" />
+    <None Include="Resources\ERA.xml" />
+    <None Include="Resources\EraGridHeader.xml" />
+    <None Include="Resources\PatientTransferCEMT.xml" />
+    <None Include="Resources\Left.gif" />
+    <None Include="Resources\PatientDashboard.xml" />
+    <None Include="Resources\PatientDashboardToothChart.xml" />
+    <Resource Include="Resources\deleteX10.gif" />
+    <Resource Include="Resources\eSig.gif" />
+    <Content Include="Resources\PaymentPlan.xml" />
+    <None Include="Resources\RXMulti.xml" />
+    <None Include="Resources\TreatmentPlan.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ADODB">
+      <Guid>{B691E011-1797-432E-907A-4D8C69339129}</Guid>
+      <VersionMajor>6</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="CDO">
+      <Guid>{CD000000-8B95-11D1-82DB-00C04FB1625D}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Crud\EServiceBillingCrud.cs" />
+    <Compile Remove="Crud\EServiceCodeLinkCrud.cs" />
+    <Compile Remove="Crud\SmsBillingCrud.cs" />
+    <Compile Remove="Data Interface\Jobs.cs" />
+    <Compile Remove="Data Interface\MapAreas.cs" />
+    <Compile Remove="Misc\WebServiceMainHQProxy.cs" />
+    <Compile Remove="TableTypes\MapArea.cs" />
+    <Compile Remove="TableTypes\Signal.cs" />
+    <Compile Remove="InternalTools\Phones\PhoneMapJSON.cs" />
+    <Compile Remove="obj\ODXam\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Remove="InternalTools\Job Manager\TableTypes\BugSubmission.cs" />
+    <Compile Remove="obj\x86\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Remove="obj\x86\ODXam\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Remove="obj\x86\Release\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+  </ItemGroup>
+</Project>

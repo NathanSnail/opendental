@@ -1,0 +1,124 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\natha\\Documents\\code\\old_dental2\\OpenDentBusiness\\OpenDentBusiness.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\natha\\Documents\\code\\old_dental2\\CodeBase\\xCodeBase.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\natha\\Documents\\code\\old_dental2\\CodeBase\\xCodeBase.csproj",
+        "projectName": "xCodeBase",
+        "projectPath": "C:\\Users\\natha\\Documents\\code\\old_dental2\\CodeBase\\xCodeBase.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\natha\\Documents\\code\\old_dental2\\DataConnectionBase\\xDataConnectionBase.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\natha\\Documents\\code\\old_dental2\\DataConnectionBase\\xDataConnectionBase.csproj",
+        "projectName": "xDataConnectionBase",
+        "projectPath": "C:\\Users\\natha\\Documents\\code\\old_dental2\\DataConnectionBase\\xDataConnectionBase.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\natha\\Documents\\code\\old_dental2\\CodeBase\\xCodeBase.csproj": {
+                "projectPath": "C:\\Users\\natha\\Documents\\code\\old_dental2\\CodeBase\\xCodeBase.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\natha\\Documents\\code\\old_dental2\\OpenDentalCloud\\OpenDentalCloud.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\natha\\Documents\\code\\old_dental2\\OpenDentalCloud\\OpenDentalCloud.csproj",
+        "projectName": "OpenDentalCloud",
+        "projectPath": "C:\\Users\\natha\\Documents\\code\\old_dental2\\OpenDentalCloud\\OpenDentalCloud.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\natha\\Documents\\code\\old_dental2\\CodeBase\\xCodeBase.csproj": {
+                "projectPath": "C:\\Users\\natha\\Documents\\code\\old_dental2\\CodeBase\\xCodeBase.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\natha\\Documents\\code\\old_dental2\\OpenDentBusiness\\OpenDentBusiness.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\natha\\Documents\\code\\old_dental2\\OpenDentBusiness\\OpenDentBusiness.csproj",
+        "projectName": "OpenDentBusiness",
+        "projectPath": "C:\\Users\\natha\\Documents\\code\\old_dental2\\OpenDentBusiness\\OpenDentBusiness.csproj",
+        "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\natha\\Documents\\code\\old_dental2\\OpenDentBusiness\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {
+              "C:\\Users\\natha\\Documents\\code\\old_dental2\\CodeBase\\xCodeBase.csproj": {
+                "projectPath": "C:\\Users\\natha\\Documents\\code\\old_dental2\\CodeBase\\xCodeBase.csproj"
+              },
+              "C:\\Users\\natha\\Documents\\code\\old_dental2\\DataConnectionBase\\xDataConnectionBase.csproj": {
+                "projectPath": "C:\\Users\\natha\\Documents\\code\\old_dental2\\DataConnectionBase\\xDataConnectionBase.csproj"
+              },
+              "C:\\Users\\natha\\Documents\\code\\old_dental2\\OpenDentalCloud\\OpenDentalCloud.csproj": {
+                "projectPath": "C:\\Users\\natha\\Documents\\code\\old_dental2\\OpenDentalCloud\\OpenDentalCloud.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[6.9.9, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

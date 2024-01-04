@@ -1316,4 +1316,3 @@ C:\Users\natha\Documents\code\old_dental2\OpenDental\obj\x86\Debug\OpenDental.cs
 C:\Users\natha\Documents\code\old_dental2\OpenDental\obj\x86\Debug\OpenDental.exe
 C:\Users\natha\Documents\code\old_dental2\OpenDental\obj\x86\Debug\OpenDental.pdb
 C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\PasswordVaultWrapper.dll
-C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\RemotePhoneService.dll
