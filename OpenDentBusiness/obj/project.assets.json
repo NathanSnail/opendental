@@ -8,10 +8,14 @@
           "System.Threading.Tasks.Extensions": "4.5.4"
         },
         "compile": {
-          "lib/net462/Microsoft.Bcl.AsyncInterfaces.dll": {}
+          "lib/net462/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net462/Microsoft.Bcl.AsyncInterfaces.dll": {}
+          "lib/net462/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "buildTransitive/net462/_._": {}
@@ -32,10 +36,14 @@
           "Nito.AsyncEx.Tasks": "5.1.2"
         },
         "compile": {
-          "lib/net461/Nito.AsyncEx.Context.dll": {}
+          "lib/net461/Nito.AsyncEx.Context.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net461/Nito.AsyncEx.Context.dll": {}
+          "lib/net461/Nito.AsyncEx.Context.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Nito.AsyncEx.Tasks/5.1.2": {
@@ -44,10 +52,14 @@
           "Nito.Disposables": "2.2.1"
         },
         "compile": {
-          "lib/net461/Nito.AsyncEx.Tasks.dll": {}
+          "lib/net461/Nito.AsyncEx.Tasks.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net461/Nito.AsyncEx.Tasks.dll": {}
+          "lib/net461/Nito.AsyncEx.Tasks.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Nito.Disposables/2.2.1": {
@@ -56,10 +68,14 @@
           "System.Collections.Immutable": "1.7.1"
         },
         "compile": {
-          "lib/net461/Nito.Disposables.dll": {}
+          "lib/net461/Nito.Disposables.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net461/Nito.Disposables.dll": {}
+          "lib/net461/Nito.Disposables.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Buffers/4.5.1": {
@@ -68,10 +84,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net45/System.Buffers.dll": {}
+          "ref/net45/System.Buffers.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net461/System.Buffers.dll": {}
+          "lib/net461/System.Buffers.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Collections.Immutable/1.7.1": {
@@ -85,10 +105,14 @@
           "mscorlib"
         ],
         "compile": {
-          "lib/net461/System.Collections.Immutable.dll": {}
+          "lib/net461/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net461/System.Collections.Immutable.dll": {}
+          "lib/net461/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Memory/4.5.5": {
@@ -103,10 +127,14 @@
           "mscorlib"
         ],
         "compile": {
-          "lib/net461/System.Memory.dll": {}
+          "lib/net461/System.Memory.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net461/System.Memory.dll": {}
+          "lib/net461/System.Memory.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Net.Http.Json/8.0.0": {
@@ -121,10 +149,14 @@
           "System.Net.Http"
         ],
         "compile": {
-          "lib/net462/System.Net.Http.Json.dll": {}
+          "lib/net462/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net462/System.Net.Http.Json.dll": {}
+          "lib/net462/System.Net.Http.Json.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "buildTransitive/net462/_._": {}
@@ -137,10 +169,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net46/System.Numerics.Vectors.dll": {}
+          "ref/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net46/System.Numerics.Vectors.dll": {}
+          "lib/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
@@ -149,10 +185,14 @@
           "mscorlib"
         ],
         "compile": {
-          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Text.Encodings.Web/8.0.0": {
@@ -163,10 +203,14 @@
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
-          "lib/net462/System.Text.Encodings.Web.dll": {}
+          "lib/net462/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net462/System.Text.Encodings.Web.dll": {}
+          "lib/net462/System.Text.Encodings.Web.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "buildTransitive/net462/_._": {}
@@ -184,10 +228,14 @@
           "System.ValueTuple": "4.5.0"
         },
         "compile": {
-          "lib/net462/System.Text.Json.dll": {}
+          "lib/net462/System.Text.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net462/System.Text.Json.dll": {}
+          "lib/net462/System.Text.Json.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "buildTransitive/net462/System.Text.Json.targets": {}
@@ -202,10 +250,14 @@
           "mscorlib"
         ],
         "compile": {
-          "lib/net461/System.Threading.Tasks.Extensions.dll": {}
+          "lib/net461/System.Threading.Tasks.Extensions.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net461/System.Threading.Tasks.Extensions.dll": {}
+          "lib/net461/System.Threading.Tasks.Extensions.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.ValueTuple/4.5.0": {
@@ -217,7 +269,9 @@
           "ref/net47/System.ValueTuple.dll": {}
         },
         "runtime": {
-          "lib/net47/System.ValueTuple.dll": {}
+          "lib/net47/System.ValueTuple.dll": {
+            "related": ".xml"
+          }
         }
       },
       "OpenDentalCloud/1.0.0": {
@@ -817,7 +871,7 @@
             "version": "[8.0.0, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
