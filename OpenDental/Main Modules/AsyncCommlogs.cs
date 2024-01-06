@@ -17,10 +17,10 @@ namespace OpenDental.Main_Modules
 {
     internal static class AsyncCommlogs
     {
-        private static HttpClient sharedClient = new HttpClient()
+        private static HttpClient sharedClient = null;/*new HttpClient()
         {
             BaseAddress = new Uri("http://localhost:9710/"),
-        };
+        };*/
         private static string auth = null;
 
         async public static void Test()
@@ -32,6 +32,19 @@ namespace OpenDental.Main_Modules
                     if (line.Contains("&"))
                     {
                         auth = line;
+                    }
+                }
+            }
+            if (sharedClient == null)
+            {
+                foreach (string line in File.ReadLines("./url"))
+                {
+                    if (line.Contains("/"))
+                    {
+                        sharedClient = new HttpClient()
+                        {
+                            BaseAddress = new Uri(line)
+                        };
                     }
                 }
             }

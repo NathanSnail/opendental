@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright ©  2006")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("22.4.62.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+732cf115aca570949ad7e6865ece5733490549ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("OpenDentBusiness")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OpenDentBusiness")]
 

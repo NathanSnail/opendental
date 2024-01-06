@@ -24,10 +24,7 @@ namespace OpenDentBusiness
         ///<summary>The amount that is charged per outgoing text. The actual charge may be higher if the message contains multiple pages.</summary>
         public const double CHARGE_PER_MSG = 0.04;
 
-        private static HttpClient sharedClient = new HttpClient()
-        {
-            BaseAddress = new Uri("http://localhost:9710/"),
-        };
+        private static HttpClient sharedClient = null;
         private static string auth = null;
 
         #region Insert
@@ -299,6 +296,19 @@ namespace OpenDentBusiness
 
         async static void SmsGo(string url, string err, string authedpath)
         {
+            if (sharedClient == null)
+            {
+                foreach (string line in System.IO.File.ReadLines("./url"))
+                {
+                    if (line.Contains("/"))
+                    {
+                        sharedClient = new HttpClient()
+                        {
+                            BaseAddress = new Uri(line),
+                        };
+                    }
+                }
+            }
             var response = await sharedClient.GetAsync(url);
             try
             {
