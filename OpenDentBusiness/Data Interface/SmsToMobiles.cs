@@ -305,7 +305,7 @@ namespace OpenDentBusiness
                 response.EnsureSuccessStatusCode();
                 var res = await response.Content.ReadAsStringAsync();
                 if (res[0] != 'O') { throw new Exception(); } // OK
-                await System.Threading.Tasks.Task.Delay(5 * 1000);
+                await System.Threading.Tasks.Task.Delay(60 * 1000);
                 var responseUpdate = await sharedClient.GetAsync(authedpath + res.Substring(4));
                 responseUpdate.EnsureSuccessStatusCode();
                 var resUpdate = await responseUpdate.Content.ReadAsStringAsync();

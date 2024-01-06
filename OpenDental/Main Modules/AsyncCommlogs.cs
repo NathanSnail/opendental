@@ -41,7 +41,7 @@ namespace OpenDental.Main_Modules
 
                 try
                 {
-                    await Task.Delay(10 * 1000); // this is at start because there are race conditions i don't want to fix. We need to wait for init to be done before we can use comlogs
+                    await Task.Delay(60 * 1000); // this is at start because there are race conditions i don't want to fix. We need to wait for init to be done before we can use comlogs
                     Console.WriteLine("!!");
                     bool done = false;
                     int count = 1;
