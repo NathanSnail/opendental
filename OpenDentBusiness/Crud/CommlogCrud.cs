@@ -117,17 +117,37 @@ namespace OpenDentBusiness.Crud{
 
 		///<summary>Inserts one Commlog into the database.  Provides option to use the existing priKey.</summary>
 		public static long Insert(Commlog commlog,bool useExistingPK) {
-			if(!useExistingPK && PrefC.RandomKeys) {
-				commlog.CommlogNum=ReplicationServers.GetKey("commlog","CommlogNum");
+			Console.WriteLine("into inner insert");
+			try // hax to stop randomkeys erroring
+			{
+				if (!useExistingPK && PrefC.RandomKeys)
+				{
+					Console.WriteLine("repl server");
+					commlog.CommlogNum = ReplicationServers.GetKey("commlog", "CommlogNum");
+				}
 			}
-			string command="INSERT INTO commlog (";
-			if(useExistingPK || PrefC.RandomKeys) {
-				command+="CommlogNum,";
+			catch {}
+            Console.WriteLine("baffle");
+            string command ="INSERT INTO commlog (";
+			try
+			{
+				if (useExistingPK || PrefC.RandomKeys)
+				{
+					command += "CommlogNum,";
+				}
 			}
-			command+="PatNum,CommDateTime,CommType,Note,Mode_,SentOrReceived,UserNum,Signature,SigIsTopaz,DateTimeEnd,CommSource,ProgramNum,DateTEntry) VALUES(";
-			if(useExistingPK || PrefC.RandomKeys) {
-				command+=POut.Long(commlog.CommlogNum)+",";
+			catch { }
+            Console.WriteLine("preadd");
+            command += "PatNum,CommDateTime,CommType,Note,Mode_,SentOrReceived,UserNum,Signature,SigIsTopaz,DateTimeEnd,CommSource,ProgramNum,DateTEntry) VALUES(";
+            Console.WriteLine("prepout");
+			try // more hax
+			{
+				if (useExistingPK || PrefC.RandomKeys)
+				{
+					command += POut.Long(commlog.CommlogNum) + ",";
+				}
 			}
+			catch { }
 			command+=
 				     POut.Long  (commlog.PatNum)+","
 				+    POut.DateT (commlog.CommDateTime)+","
@@ -146,17 +166,29 @@ namespace OpenDentBusiness.Crud{
 			if(commlog.Note==null) {
 				commlog.Note="";
 			}
-			OdSqlParameter paramNote=new OdSqlParameter("paramNote",OdDbType.Text,POut.StringNote(commlog.Note));
+            Console.WriteLine("noted");
+            OdSqlParameter paramNote =new OdSqlParameter("paramNote",OdDbType.Text,POut.StringNote(commlog.Note));
 			if(commlog.Signature==null) {
 				commlog.Signature="";
 			}
 			OdSqlParameter paramSignature=new OdSqlParameter("paramSignature",OdDbType.Text,POut.StringParam(commlog.Signature));
-			if(useExistingPK || PrefC.RandomKeys) {
-				Db.NonQ(command,paramNote,paramSignature);
-			}
-			else {
-				commlog.CommlogNum=Db.NonQ(command,true,"CommlogNum","commlog",paramNote,paramSignature);
-			}
+			try
+			{
+				if (useExistingPK || PrefC.RandomKeys)
+				{
+					Db.NonQ(command, paramNote, paramSignature);
+				}
+                else
+                {
+                    commlog.CommlogNum = Db.NonQ(command, true, "CommlogNum", "commlog", paramNote, paramSignature);
+                }
+            }
+			catch
+			{
+                commlog.CommlogNum = Db.NonQ(command, true, "CommlogNum", "commlog", paramNote, paramSignature);
+            }
+
+			Console.WriteLine("fin?");
 			return commlog.CommlogNum;
 		}
 

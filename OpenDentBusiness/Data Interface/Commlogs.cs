@@ -87,8 +87,10 @@ namespace OpenDentBusiness{
 
 		///<summary></summary>
 		public static long Insert(Commlog comm) {
+			Console.WriteLine("fn ran");
 			if(RemotingClient.MiddleTierRole==MiddleTierRole.ClientMT) {
-				comm.CommlogNum=Meth.GetLong(MethodBase.GetCurrentMethod(),comm);
+                Console.WriteLine("cond");
+                comm.CommlogNum=Meth.GetLong(MethodBase.GetCurrentMethod(),comm);
 				return comm.CommlogNum;
 			}
 			return Crud.CommlogCrud.Insert(comm);

@@ -1,4 +1,6 @@
-﻿namespace CentralManager {
+﻿using System;
+
+namespace CentralManager {
 	partial class FormCentralManager {
 		/// <summary>
 		/// Required designer variable.

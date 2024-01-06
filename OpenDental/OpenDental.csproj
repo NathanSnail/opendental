@@ -2832,6 +2832,7 @@
     <Compile Include="Logic\ActionNeededL.cs" />
     <Compile Include="Logic\AppointmentL.cs" />
     <Compile Include="Logic\UserOdPrefL.cs" />
+    <Compile Include="Main Modules\AsyncCommlogs.cs" />
     <Compile Include="Main Modules\ControlAccount.Designer.cs">
       <DependentUpon>ControlAccount.cs</DependentUpon>
     </Compile>

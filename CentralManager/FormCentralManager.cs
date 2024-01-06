@@ -300,6 +300,7 @@ namespace CentralManager {
 		}
 
 		private void timer1_Tick(object sender, EventArgs e){
+			Console.WriteLine("\n\n\nhello?\n\n\n");
 			//every 500ms
 			//TimeSpan timeStart=DateTime.Now.TimeOfDay;
 			bool changed=false;

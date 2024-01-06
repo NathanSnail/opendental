@@ -687,6 +687,7 @@ namespace OpenDental {
 		}
 
 		private void menuItemChangePat_Click(object sender,EventArgs e) {
+			Console.WriteLine("commlog maybe");
 			if(GetSelectedSmsGroup()!=null) {
 				MsgBox.Show(this,"Please turn off Group By Patient.");
 				return;
