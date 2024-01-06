@@ -1,4 +1,6 @@
 ﻿using OpenDentBusiness;
+using OpenDentBusiness.Mobile;
+using OpenDentBusiness.WebTypes;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -86,7 +88,19 @@ namespace OpenDental.Main_Modules
                             log.Note = "Text message received: " + msgText;
                             log.Mode_ = CommItemMode.Text;
                             log.CommDateTime = time;
-                            Commlogs.Insert(log);
+                            log.SentOrReceived = CommSentOrReceived.Received;
+                            log.CommType = Commlogs.GetTypeAuto(CommItemTypeAuto.TEXT);
+                            log.UserNum = Security.CurUser.UserNum;
+                            var sms = new SmsFromMobile();
+                            sms.CommlogNum = Commlogs.Insert(log);
+                            sms.SmsFromMobileNum = long.Parse(from);
+                            sms.PatNum = log.PatNum;
+                            sms.DateTimeReceived = time;
+                            sms.MsgText = msgText;
+                            sms.SmsStatus = SmsFromStatus.ReceivedUnread;
+                            OpenDentBusiness.SmsFromMobiles.Insert(sms);
+                            //Alert ODMobile where applicable.
+                            PushNotificationUtils.ODM_NewTextMessage(sms, sms.PatNum);
                         }
                         offset = count;
                         count *= 2;

@@ -118,6 +118,8 @@ namespace OpenDentBusiness{
 		public static List<SmsFromMobile> GetMessages(DateTime dateStart,DateTime dateEnd,List<long> listClinicNums,long patNum,
 			bool isMessageThread,string phoneNumber,List<SmsFromStatus> listSmsFromStatuses) 
 		{
+			Console.WriteLine("messages gett");
+			Console.WriteLine(listSmsFromStatuses.ToString());
 			if(RemotingClient.MiddleTierRole==MiddleTierRole.ClientMT) {
 				return Meth.GetObject<List<SmsFromMobile>>(MethodBase.GetCurrentMethod(),dateStart,dateEnd,listClinicNums,patNum,isMessageThread,
 					phoneNumber,listSmsFromStatuses);

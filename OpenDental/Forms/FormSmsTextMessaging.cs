@@ -232,10 +232,12 @@ namespace OpenDental {
 				List<SmsFromStatus> listSmsFromStatuses=new List<SmsFromStatus>();
 				listSmsFromStatuses.Add(SmsFromStatus.ReceivedUnread);
 				if(checkRead.Checked){
-					listSmsFromStatuses.Add(SmsFromStatus.ReceivedRead);
+                    Console.WriteLine("receive show");
+                    listSmsFromStatuses.Add(SmsFromStatus.ReceivedRead);
 				}
 				_listSmsFromMobiles=SmsFromMobiles.GetMessages(PIn.Date(textDateFrom.Text),PIn.Date(textDateTo.Text),GetListSelectedClinicNums(),_patNum,false,"",listSmsFromStatuses);
 				if(checkSent.Checked) {
+					Console.WriteLine("sent show");
 					_listSmsToMobiles=SmsToMobiles.GetMessages(PIn.Date(textDateFrom.Text),PIn.Date(textDateTo.Text),GetListSelectedClinicNums(),_patNum,"");
 				}
 				AddPatientNames(_listSmsFromMobiles.GroupBy(x => x.PatNum).Select(x => x.Key)

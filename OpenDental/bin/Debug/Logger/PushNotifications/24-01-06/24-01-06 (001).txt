@@ -1,0 +1,24 @@
+01/06/24 18:53:58:321	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/06/24 18:56:55:323	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/06/24 19:06:16:311	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
