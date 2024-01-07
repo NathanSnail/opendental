@@ -1,0 +1,13 @@
+C:\Users\natha\Documents\code\old_dental2\SparksToothChart\obj\x86\Release\SparksToothChart.csproj.AssemblyReference.cache
+C:\Users\natha\Documents\code\old_dental2\SparksToothChart\obj\x86\Release\WPF\Wpf3dControl.baml
+C:\Users\natha\Documents\code\old_dental2\SparksToothChart\obj\x86\Release\WPF\Wpf3dControl.g.cs
+C:\Users\natha\Documents\code\old_dental2\SparksToothChart\obj\x86\Release\SparksToothChart_MarkupCompile.cache
+C:\Users\natha\Documents\code\old_dental2\SparksToothChart\obj\x86\Release\SparksToothChart.g.resources
+C:\Users\natha\Documents\code\old_dental2\SparksToothChart\obj\x86\Release\SparksToothChart.ToothChartWpf.resources
+C:\Users\natha\Documents\code\old_dental2\SparksToothChart\obj\x86\Release\SparksToothChart.ToothChartWrapper.resources
+C:\Users\natha\Documents\code\old_dental2\SparksToothChart\obj\x86\Release\SparksToothChart.Properties.Resources.resources
+C:\Users\natha\Documents\code\old_dental2\SparksToothChart\obj\x86\Release\SparksToothChart.ToothChartOpenGL.resources
+C:\Users\natha\Documents\code\old_dental2\SparksToothChart\obj\x86\Release\SparksToothChart.ToothChart2D.resources
+C:\Users\natha\Documents\code\old_dental2\SparksToothChart\obj\x86\Release\SparksToothChart.ToothChartDirectX.resources
+C:\Users\natha\Documents\code\old_dental2\SparksToothChart\obj\x86\Release\SparksToothChart.csproj.GenerateResource.cache
+C:\Users\natha\Documents\code\old_dental2\SparksToothChart\obj\x86\Release\SparksToothChart.csproj.CoreCompileInputs.cache

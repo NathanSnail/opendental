@@ -69,6 +69,10 @@ namespace OpenDental.Main_Modules
                         int c = 0;
                         foreach (XmlElement child in list.ChildNodes)
                         {
+                            if (list.ChildNodes.Count < offset)
+                            {
+                                break;
+                            }
                             Console.WriteLine("count");
                             Console.WriteLine(count.ToString());
                             if (c < offset)
@@ -106,11 +110,15 @@ namespace OpenDental.Main_Modules
                             log.UserNum = Security.CurUser.UserNum;
                             var sms = new SmsFromMobile();
                             sms.CommlogNum = Commlogs.Insert(log);
-                            sms.SmsFromMobileNum = long.Parse(from);
+                            sms.MobilePhoneNumber = from;
                             sms.PatNum = log.PatNum;
                             sms.DateTimeReceived = time;
                             sms.MsgText = msgText;
                             sms.SmsStatus = SmsFromStatus.ReceivedUnread;
+                            sms.MsgTotal = 1;
+                            sms.MatchCount = patients.Count;
+                            sms.ClinicNum = 0;
+                            sms.MsgPart = 1;
                             OpenDentBusiness.SmsFromMobiles.Insert(sms);
                             //Alert ODMobile where applicable.
                             PushNotificationUtils.ODM_NewTextMessage(sms, sms.PatNum);

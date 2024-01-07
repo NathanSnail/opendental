@@ -87,7 +87,4 @@ C:\Users\natha\Documents\code\old_dental2\ServiceManager\obj\x86\Debug\ServiceMa
 C:\Users\natha\Documents\code\old_dental2\ServiceManager\obj\x86\Debug\ServiceManager.csproj.CopyComplete
 C:\Users\natha\Documents\code\old_dental2\ServiceManager\obj\x86\Debug\ServiceManager.exe
 C:\Users\natha\Documents\code\old_dental2\ServiceManager\obj\x86\Debug\ServiceManager.pdb
-C:\Users\natha\Documents\code\old_dental2\ServiceManager\bin\Debug\Nito.AsyncEx.Context.dll
-C:\Users\natha\Documents\code\old_dental2\ServiceManager\bin\Debug\Nito.Disposables.dll
-C:\Users\natha\Documents\code\old_dental2\ServiceManager\bin\Debug\Nito.AsyncEx.Tasks.dll
-C:\Users\natha\Documents\code\old_dental2\ServiceManager\bin\Debug\System.Collections.Immutable.dll
+C:\Users\natha\Documents\code\old_dental2\ServiceManager\obj\x86\Debug\ServiceManager.csproj.SuggestedBindingRedirects.cache

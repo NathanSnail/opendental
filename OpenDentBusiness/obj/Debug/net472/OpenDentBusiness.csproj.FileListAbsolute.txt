@@ -98,8 +98,4 @@ C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\bin\Debug\net472\Open
 C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\obj\Debug\net472\OpenDentBusiness.csproj.CopyComplete
 C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\obj\Debug\net472\OpenDentBusiness.dll
 C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\obj\Debug\net472\OpenDentBusiness.pdb
-C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\bin\Debug\net472\Nito.AsyncEx.Context.dll
-C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\bin\Debug\net472\Nito.AsyncEx.Tasks.dll
-C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\bin\Debug\net472\Nito.Disposables.dll
-C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\bin\Debug\net472\System.Collections.Immutable.dll
 C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\obj\Debug\net472\OpenDentBusiness.sourcelink.json

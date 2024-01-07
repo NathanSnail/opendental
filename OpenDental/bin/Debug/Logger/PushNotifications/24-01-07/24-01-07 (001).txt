@@ -1,0 +1,712 @@
+01/07/24 10:18:29:872	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:20:47:182	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:20:47:182	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:24:21:492	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:28:02:392	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:28:02:392	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:28:02:753	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:28:02:787	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:28:03:164	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:28:03:200	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:28:03:526	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:28:03:564	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:28:03:922	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:28:03:931	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:28:04:309	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:28:04:319	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:28:04:680	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:28:04:717	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:28:05:050	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:28:05:102	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:28:05:440	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:28:05:470	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:28:05:807	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:28:05:842	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:28:06:183	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:28:06:212	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:28:06:626	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:28:06:638	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:28:07:012	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:28:07:072	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:28:07:448	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:28:07:455	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:31:24:582	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:31:24:583	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:31:24:912	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:31:24:925	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:31:25:294	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:31:25:329	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:31:25:682	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:31:25:736	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:31:26:110	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:31:26:130	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:31:26:473	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:31:26:531	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:31:26:871	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:31:26:926	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:31:27:234	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:31:27:295	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:31:27:628	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:31:27:679	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:31:28:011	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:31:28:083	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:31:28:381	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:31:28:454	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:31:28:743	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:31:28:823	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:31:29:124	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:31:29:205	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:31:29:507	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:31:29:669	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:48:04:701	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:48:04:701	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:48:04:993	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:48:05:144	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:48:05:496	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:48:05:785	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:48:05:817	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:48:06:174	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:48:06:384	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:48:06:770	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:48:06:991	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:48:07:189	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:48:07:394	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:48:07:623	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:48:07:937	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:48:08:042	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:48:08:340	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:48:08:484	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:48:08:730	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:48:08:897	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:48:09:098	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:48:09:304	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:48:09:509	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:48:09:682	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:48:09:893	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:48:10:113	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:48:10:336	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 10:48:10:482	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194
+01/07/24 13:57:24:453	failed - Unhandled exception :  <?xml version="1.0" encoding="utf-16"?>
+<Response>
+    <Error>Customer not registered for monthly support: MobileWeb</Error>
+</Response>
+System.Exception
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>g__execute|0() in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 379
+   at OpenDentBusiness.WebTypes.PushNotificationUtils.<>c__DisplayClass21_0.<SendPush>b__1(ODThread o) in C:\Users\natha\Documents\code\old_dental2\OpenDentBusiness\WebTypes\PushNotifications\PushNotificationUtils.cs:line 382
+   at CodeBase.ODThread.SetupRunTeardown() in C:\Users\natha\Documents\code\old_dental2\CodeBase\Utilities\ODThread.cs:line 194

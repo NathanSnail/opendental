@@ -74,6 +74,7 @@ namespace OpenDentBusiness{
 
 		///<summary>Returns the number of messages which have not yet been read.  If there are no unread messages, then empty string is returned.  If more than 99 messages are unread, then "99" is returned.  The count limit is 99, because only 2 digits can fit in the SMS notification text.</summary>
 		public static string GetSmsNotification() {
+			Console.WriteLine("\n\n\nsms notifs calc\n\n\n");
 			if(RemotingClient.MiddleTierRole==MiddleTierRole.ClientMT) {
 				return Meth.GetString(MethodBase.GetCurrentMethod());
 			}

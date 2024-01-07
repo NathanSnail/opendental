@@ -1,0 +1,140 @@
+01/07/24 10:18:29:874	Scanning files.
+01/07/24 10:18:29:874	Querying files in directory: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger
+01/07/24 10:18:29:877	Deleting 0 files... 0.00 MB
+01/07/24 10:18:29:877	File scan complete.
+01/07/24 10:18:29:878	Scanning 6 directories.
+01/07/24 10:18:29:878	Scanned 0 of 6. 0% done.
+01/07/24 10:18:29:878	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\CleanupLogger\24-01-06
+01/07/24 10:18:29:891	Scanned 1 of 6. 16% done.
+01/07/24 10:18:29:892	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\CleanupLogger\24-01-07
+01/07/24 10:18:29:898	Scanned 2 of 6. 33% done.
+01/07/24 10:18:29:898	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\CleanupLogger
+01/07/24 10:18:29:905	Scanned 3 of 6. 50% done.
+01/07/24 10:18:29:905	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\PushNotifications\24-01-06
+01/07/24 10:18:29:911	Scanned 4 of 6. 66% done.
+01/07/24 10:18:29:911	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\PushNotifications\24-01-07
+01/07/24 10:18:29:917	Scanned 5 of 6. 83% done.
+01/07/24 10:18:29:917	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\PushNotifications
+01/07/24 10:18:29:924	Scanned 6 of 6. 100% done.
+01/07/24 10:18:29:924	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger
+01/07/24 10:18:29:931	Directory scan complete.
+01/07/24 10:20:47:184	Scanning files.
+01/07/24 10:20:47:184	Querying files in directory: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger
+01/07/24 10:20:47:186	Deleting 0 files... 0.00 MB
+01/07/24 10:20:47:186	File scan complete.
+01/07/24 10:20:47:188	Scanning 6 directories.
+01/07/24 10:20:47:188	Scanned 0 of 6. 0% done.
+01/07/24 10:20:47:188	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\CleanupLogger\24-01-06
+01/07/24 10:20:47:200	Scanned 1 of 6. 16% done.
+01/07/24 10:20:47:200	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\CleanupLogger\24-01-07
+01/07/24 10:20:47:206	Scanned 2 of 6. 33% done.
+01/07/24 10:20:47:207	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\CleanupLogger
+01/07/24 10:20:47:214	Scanned 3 of 6. 50% done.
+01/07/24 10:20:47:214	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\PushNotifications\24-01-06
+01/07/24 10:20:47:221	Scanned 4 of 6. 66% done.
+01/07/24 10:20:47:221	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\PushNotifications\24-01-07
+01/07/24 10:20:47:227	Scanned 5 of 6. 83% done.
+01/07/24 10:20:47:227	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\PushNotifications
+01/07/24 10:20:47:233	Scanned 6 of 6. 100% done.
+01/07/24 10:20:47:233	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger
+01/07/24 10:20:47:239	Directory scan complete.
+01/07/24 10:24:21:493	Scanning files.
+01/07/24 10:24:21:493	Querying files in directory: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger
+01/07/24 10:24:21:497	Deleting 0 files... 0.00 MB
+01/07/24 10:24:21:497	File scan complete.
+01/07/24 10:24:21:498	Scanning 6 directories.
+01/07/24 10:24:21:498	Scanned 0 of 6. 0% done.
+01/07/24 10:24:21:498	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\CleanupLogger\24-01-06
+01/07/24 10:24:21:510	Scanned 1 of 6. 16% done.
+01/07/24 10:24:21:510	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\CleanupLogger\24-01-07
+01/07/24 10:24:21:518	Scanned 2 of 6. 33% done.
+01/07/24 10:24:21:518	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\CleanupLogger
+01/07/24 10:24:21:526	Scanned 3 of 6. 50% done.
+01/07/24 10:24:21:526	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\PushNotifications\24-01-06
+01/07/24 10:24:21:535	Scanned 4 of 6. 66% done.
+01/07/24 10:24:21:535	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\PushNotifications\24-01-07
+01/07/24 10:24:21:542	Scanned 5 of 6. 83% done.
+01/07/24 10:24:21:542	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\PushNotifications
+01/07/24 10:24:21:550	Scanned 6 of 6. 100% done.
+01/07/24 10:24:21:551	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger
+01/07/24 10:24:21:558	Directory scan complete.
+01/07/24 10:28:02:393	Scanning files.
+01/07/24 10:28:02:393	Querying files in directory: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger
+01/07/24 10:28:02:396	Deleting 0 files... 0.00 MB
+01/07/24 10:28:02:396	File scan complete.
+01/07/24 10:28:02:398	Scanning 6 directories.
+01/07/24 10:28:02:399	Scanned 0 of 6. 0% done.
+01/07/24 10:28:02:399	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\CleanupLogger\24-01-06
+01/07/24 10:28:02:415	Scanned 1 of 6. 16% done.
+01/07/24 10:28:02:415	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\CleanupLogger\24-01-07
+01/07/24 10:28:02:422	Scanned 2 of 6. 33% done.
+01/07/24 10:28:02:422	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\CleanupLogger
+01/07/24 10:28:02:430	Scanned 3 of 6. 50% done.
+01/07/24 10:28:02:430	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\PushNotifications\24-01-06
+01/07/24 10:28:02:438	Scanned 4 of 6. 66% done.
+01/07/24 10:28:02:438	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\PushNotifications\24-01-07
+01/07/24 10:28:02:447	Scanned 5 of 6. 83% done.
+01/07/24 10:28:02:447	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\PushNotifications
+01/07/24 10:28:02:460	Scanned 6 of 6. 100% done.
+01/07/24 10:28:02:460	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger
+01/07/24 10:28:02:471	Directory scan complete.
+01/07/24 10:31:24:584	Scanning files.
+01/07/24 10:31:24:584	Querying files in directory: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger
+01/07/24 10:31:24:589	Deleting 0 files... 0.00 MB
+01/07/24 10:31:24:589	File scan complete.
+01/07/24 10:31:24:592	Scanning 6 directories.
+01/07/24 10:31:24:593	Scanned 0 of 6. 0% done.
+01/07/24 10:31:24:593	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\CleanupLogger\24-01-06
+01/07/24 10:31:24:609	Scanned 1 of 6. 16% done.
+01/07/24 10:31:24:609	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\CleanupLogger\24-01-07
+01/07/24 10:31:24:619	Scanned 2 of 6. 33% done.
+01/07/24 10:31:24:619	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\CleanupLogger
+01/07/24 10:31:24:628	Scanned 3 of 6. 50% done.
+01/07/24 10:31:24:628	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\PushNotifications\24-01-06
+01/07/24 10:31:24:638	Scanned 4 of 6. 66% done.
+01/07/24 10:31:24:638	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\PushNotifications\24-01-07
+01/07/24 10:31:24:647	Scanned 5 of 6. 83% done.
+01/07/24 10:31:24:647	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\PushNotifications
+01/07/24 10:31:24:659	Scanned 6 of 6. 100% done.
+01/07/24 10:31:24:659	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger
+01/07/24 10:31:24:669	Directory scan complete.
+01/07/24 10:48:04:702	Scanning files.
+01/07/24 10:48:04:702	Querying files in directory: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger
+01/07/24 10:48:04:708	Deleting 0 files... 0.00 MB
+01/07/24 10:48:04:709	File scan complete.
+01/07/24 10:48:04:712	Scanning 6 directories.
+01/07/24 10:48:04:714	Scanned 0 of 6. 0% done.
+01/07/24 10:48:04:714	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\CleanupLogger\24-01-06
+01/07/24 10:48:04:733	Scanned 1 of 6. 16% done.
+01/07/24 10:48:04:733	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\CleanupLogger\24-01-07
+01/07/24 10:48:04:744	Scanned 2 of 6. 33% done.
+01/07/24 10:48:04:744	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\CleanupLogger
+01/07/24 10:48:04:759	Scanned 3 of 6. 50% done.
+01/07/24 10:48:04:759	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\PushNotifications\24-01-06
+01/07/24 10:48:04:773	Scanned 4 of 6. 66% done.
+01/07/24 10:48:04:773	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\PushNotifications\24-01-07
+01/07/24 10:48:04:922	Scanned 5 of 6. 83% done.
+01/07/24 10:48:04:923	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\PushNotifications
+01/07/24 10:48:04:933	Scanned 6 of 6. 100% done.
+01/07/24 10:48:04:933	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger
+01/07/24 10:48:04:947	Directory scan complete.
+01/07/24 13:57:24:455	Scanning files.
+01/07/24 13:57:24:457	Querying files in directory: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger
+01/07/24 13:57:24:459	Deleting 0 files... 0.00 MB
+01/07/24 13:57:24:459	File scan complete.
+01/07/24 13:57:24:460	Scanning 6 directories.
+01/07/24 13:57:24:461	Scanned 0 of 6. 0% done.
+01/07/24 13:57:24:461	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\CleanupLogger\24-01-06
+01/07/24 13:57:24:473	Scanned 1 of 6. 16% done.
+01/07/24 13:57:24:473	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\CleanupLogger\24-01-07
+01/07/24 13:57:24:479	Scanned 2 of 6. 33% done.
+01/07/24 13:57:24:479	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\CleanupLogger
+01/07/24 13:57:24:486	Scanned 3 of 6. 50% done.
+01/07/24 13:57:24:486	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\PushNotifications\24-01-06
+01/07/24 13:57:24:492	Scanned 4 of 6. 66% done.
+01/07/24 13:57:24:492	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\PushNotifications\24-01-07
+01/07/24 13:57:24:498	Scanned 5 of 6. 83% done.
+01/07/24 13:57:24:498	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger\PushNotifications
+01/07/24 13:57:24:505	Scanned 6 of 6. 100% done.
+01/07/24 13:57:24:505	Current scan item: C:\Users\natha\Documents\code\old_dental2\OpenDental\bin\Debug\Logger
+01/07/24 13:57:24:510	Directory scan complete.

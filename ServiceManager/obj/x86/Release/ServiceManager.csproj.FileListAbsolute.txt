@@ -1,0 +1,7 @@
+C:\Users\natha\Documents\code\old_dental2\ServiceManager\obj\x86\Release\ServiceManager.csproj.AssemblyReference.cache
+C:\Users\natha\Documents\code\old_dental2\ServiceManager\obj\x86\Release\ServiceManager.FormWebConfigSettings.resources
+C:\Users\natha\Documents\code\old_dental2\ServiceManager\obj\x86\Release\ServiceManager.FormMain.resources
+C:\Users\natha\Documents\code\old_dental2\ServiceManager\obj\x86\Release\ServiceManager.FormServiceManage.resources
+C:\Users\natha\Documents\code\old_dental2\ServiceManager\obj\x86\Release\ServiceManager.Properties.Resources.resources
+C:\Users\natha\Documents\code\old_dental2\ServiceManager\obj\x86\Release\ServiceManager.csproj.GenerateResource.cache
+C:\Users\natha\Documents\code\old_dental2\ServiceManager\obj\x86\Release\ServiceManager.csproj.CoreCompileInputs.cache

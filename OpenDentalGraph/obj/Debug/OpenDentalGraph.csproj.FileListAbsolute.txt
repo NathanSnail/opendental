@@ -101,7 +101,3 @@ C:\Users\natha\Documents\code\old_dental2\OpenDentalGraph\bin\Debug\OpenDentalCl
 C:\Users\natha\Documents\code\old_dental2\OpenDentalGraph\obj\Debug\OpenDentalGraph.csproj.CopyComplete
 C:\Users\natha\Documents\code\old_dental2\OpenDentalGraph\obj\Debug\OpenDentalGraph.dll
 C:\Users\natha\Documents\code\old_dental2\OpenDentalGraph\obj\Debug\OpenDentalGraph.pdb
-C:\Users\natha\Documents\code\old_dental2\OpenDentalGraph\bin\Debug\Nito.AsyncEx.Context.dll
-C:\Users\natha\Documents\code\old_dental2\OpenDentalGraph\bin\Debug\Nito.Disposables.dll
-C:\Users\natha\Documents\code\old_dental2\OpenDentalGraph\bin\Debug\Nito.AsyncEx.Tasks.dll
-C:\Users\natha\Documents\code\old_dental2\OpenDentalGraph\bin\Debug\System.Collections.Immutable.dll
