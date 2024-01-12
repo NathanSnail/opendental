@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 using System.Web.UI.WebControls;
 using System.Xml;
 using Task = System.Threading.Tasks.Task;
+using System.Diagnostics;
 
 namespace OpenDental.Main_Modules
 {
@@ -48,6 +49,17 @@ namespace OpenDental.Main_Modules
                     }
                 }
             }
+            try
+            {
+                EventLog.CreateEventSource("ODSMS", "Application");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                Console.WriteLine("Event source already exists");
+                EventLog.WriteEntry("ODSMS", "Event source already exists", EventLogEntryType.Information, 101, 1, new byte[10]);
+
+            }
             string send = "http/request-received-messages?&order=newest&" + auth;
             while (true)
             {
@@ -63,10 +75,12 @@ namespace OpenDental.Main_Modules
                     {
                         var response = await sharedClient.GetAsync(send + "&" + count);
                         var text = await response.Content.ReadAsStringAsync();
+                        //EventLog.WriteEntry("ODSMS", text, EventLogEntryType.Information);
                         XmlDocument xmlDoc = new XmlDocument();
                         xmlDoc.LoadXml(text);
                         var list = xmlDoc.ChildNodes[1];
                         int c = 0;
+                        EventLog.WriteEntry("ODSMS", "preloop", EventLogEntryType.Error, 101, 1, new byte[10]);
                         foreach (XmlElement child in list.ChildNodes)
                         {
                             if (list.ChildNodes.Count < offset)
@@ -88,6 +102,7 @@ namespace OpenDental.Main_Modules
                             var time = DateTime.Parse(msgTime);
                             Console.WriteLine(msgText);
                             string guid = child.ChildNodes[4].InnerText;
+                            EventLog.WriteEntry("ODSMS", "innner", EventLogEntryType.Error, 101, 1, new byte[10]);
                             if (File.Exists("./msg_guids/" + guid))
                             {
                                 done = true;
@@ -128,9 +143,10 @@ namespace OpenDental.Main_Modules
                         Console.WriteLine(count);
                     }
                 }
-                catch
+                catch(Exception e)
                 {
                     MsgBox.Show("Receiving patient texts failed.");
+                    EventLog.WriteEntry("ODSMS", e.ToString(),EventLogEntryType.Error, 101, 1, new byte[10]);
                 }
             }
         }
