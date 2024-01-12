@@ -1864,6 +1864,7 @@ namespace OpenDental{
 
 		///<summary>Causes the toolbar to be laid out again.</summary>
 		private void LayoutToolBar() {
+			Console.WriteLine("\n\n\nlayout\n\n\n");
 			ToolBarMain.Buttons.Clear();
 			ToolBarMain.ImageList=imageListMain;
 			ODToolBarButton toolBarButton;
